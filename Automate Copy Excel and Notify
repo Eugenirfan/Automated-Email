@@ -19,7 +19,7 @@ to = r'S:\Matmgmt\'+d1+'.xlsx'
 
 outlook = win32com.client.Dispatch('outlook.application')
 not_copied = outlook.CreateItem(0)
-not_copied.To = 'mohamedirfan.suffeerahmed@cardinalhealth.com;'
+not_copied.To = 'mohamedirfan@mail.com;'
 not_copied.Subject = 'Email not Sent'
 not_copied.Body = 'Dear \n\n'\
                     '.xlsx is not refreshed.\n\n'\
