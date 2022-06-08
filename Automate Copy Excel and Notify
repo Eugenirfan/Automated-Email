@@ -14,8 +14,8 @@ d1 = date1.strftime('%Y-%m-%d')
 d2 = date2.strftime('%Y-%m-%d')
 
 #creating from and to location to copy file 
-frm= r'S:\Matmgmt\standard_work\A.xlsx'
-to = r'S:\Matmgmt\'+d1+'.xlsx'
+frm= r'A.xlsx'
+to = r'd1+'.xlsx'
 
 outlook = win32com.client.Dispatch('outlook.application')
 not_copied = outlook.CreateItem(0)
