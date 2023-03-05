@@ -17,7 +17,7 @@
 * Applies borders if cell has a value
 * Increases cell spacing as per the cell contents 
 
- 2.#**ODBC Engine for SQL Querying**
+ 3.#**ODBC Engine for SQL Querying**
  
  **Below is the logic**
 
